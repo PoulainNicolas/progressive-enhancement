@@ -1,0 +1,408 @@
+body{
+    width: max-content;
+
+background: -webkit-linear-gradient(-180deg, rgb(215, 225, 233), rgb(246, 249, 252));
+background: linear-gradient(-180deg, rgb(215, 225, 233), rgb(246, 249, 252));
+background-attachment: fixed;
+font-family: "Calibre", sans-serif;
+}
+
+header{
+    width: max-content;
+    height: 80px;
+    display: flex;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.logo{
+    height:50px;
+    width: auto;
+    padding-top: 15px;
+
+}
+
+.nav1{
+    display: flex;
+}
+
+#titre{
+    display: flex;
+}
+
+.nav1 ul{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Calibre", sans-serif;
+    
+}
+
+.nav1 a{
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Calibre", sans-serif;
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+    padding-bottom: 13px;
+    padding-left: 0px;
+    padding-right: 18px;
+    padding-top: 13px;
+    margin-left: 0px;
+}
+
+.more li{
+    color: dimgrey
+}
+
+.nav2 a{
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Calibre", sans-serif;
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+    padding-bottom: 13px;
+    padding-left: 0px;
+    padding-right: 18px;
+    padding-top: 13px;
+    margin-left: 0px;
+}
+
+.nav2 ul{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Calibre", sans-serif;
+    padding-bottom: 13px;
+    padding-left: 0px;
+    padding-right: 18px;
+    padding-top: 13px;
+    margin-left: 250px;
+}
+
+.nav3 ul{
+    display: flex;
+    list-style-type: none;
+    padding-bottom: 13px;
+    padding-left: 0px;
+    padding-right: 18px;
+    padding-top: 13px;
+    position: absolute;
+    right: 20px;
+}
+
+.nav3 a{
+    text-decoration: none;
+
+}
+
+.nav3 .try{
+    color: white;
+    background-color: blue;
+    border: solid black 1px;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px; 
+    height: 70px;
+    padding: 10px;
+}
+
+.nav3 .sign{
+    background-color: white;
+    color: black;
+    border: solid black 1px;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    height: 70px;
+    padding: 10px;
+}
+
+h1{
+    font-weight: lighter;
+    text-align: center;
+}
+
+#slogan{
+    width: 100%;
+    height: 100px;
+}
+
+section{
+    display: flex;
+    height: 300px;
+    background-color: dimgrey;
+}
+
+.task{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+.team{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    color: white;
+    text-decoration: none;
+}
+
+.time{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+   
+}
+
+.invoice{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;   
+}
+
+.task-lien{
+    text-decoration: none;
+    color: white;
+    padding-top: 25px;
+    font-family: "Calibre", sans-serif;
+    font-weight: bold;
+}
+
+.team-lien{
+    text-decoration: none;
+    color: white;
+    padding-top: 25px;
+    font-weight: bold;
+}
+
+.time-lien{
+    text-decoration: none;
+    color: white;
+    padding-top: 25px;
+    font-weight: bold;
+}
+
+.invoice-lien{
+    text-decoration: none;
+    color: white;
+    padding-top: 25px;
+    font-weight: bold;
+}
+
+p{
+    text-align: center;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    text-align: center;
+    padding-left: 350px;
+    padding-right: 350px;
+    margin-top: 30px;
+    line-height: 2em;
+    font-family: "Calibre", serif;
+
+}
+
+.bigbutton{
+    border: solid 1px black;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 9px;
+    margin-bottom: 0px;
+    text-decoration: none;
+    font-family: "Calibre", sans-serif;
+
+}
+
+.conditions{
+    font-size: 12px;
+    margin-top: 0px;
+    font-family: "Calibre", sans-serif;
+
+}
+
+.screenshot{
+    position: relative;
+    margin-top: 100px;
+    height: 352px;
+}
+
+.bg{
+    vertical-align: middle;
+}
+.screen{
+    position: relative;
+    top: -275px;
+    left: 337.5px;
+}
+
+.cloud{
+    text-align: center;
+    padding-left: 340px;
+    padding-right: 340px;
+    margin-top: 30px;
+    line-height: 2em;
+    background-color: white;
+}
+
+.accroche{
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    margin-top: 80px;
+}
+
+.price{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-family: "Calibre", serif;
+
+}
+
+.monthly{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 60px;
+    line-height: 0px;
+    border-right: 1px solid dimgray;
+}
+
+.self-hosted{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 60px;
+    line-height: 0px;
+}
+
+.button{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 9px;
+    text-align: center;
+    text-decoration: none;
+    align-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.mp{
+    font-size: 22px;
+    font-family: "Calibre", sans-serif;
+}
+
+.sh{
+    font-size: 22px;
+    font-family: "Calibre", sans-serif;
+}
+
+.prix{
+    font-style: italic;
+}
+
+.who{
+    font-size: 22px;
+    font-family: "Calibre", sans-serif;
+}
+
+.qui{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 340px;
+    padding-right: 340px;
+    margin-top: 30px;
+    line-height: 2em;
+}
+
+.desc{
+    font-family: "Calibre", serif;
+}
+
+.get-started{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 400px;
+    padding-right: 400px;
+    
+}
+
+.get{
+    font-size: 30px;
+    font-family: "Calibre", sans-serif;
+}
+
+.details{
+    font-family: "Calibre", serif;
+}
+
+.formulaire{
+    background-color: dimgray;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 120px;
+    line-height: 0px;
+    background-color: rgb(213, 225, 238);
+    border: 1px solid dimgray;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom:50px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    
+    background-color: dimgray;
+}
+
+.element-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 80%;
+    color: white;
+    line-height: 0px;
+    padding-right: 20px;
+}
+
+.titre-footer{
+    color: rgb(155, 148, 148);
+}
+
+
+
+
