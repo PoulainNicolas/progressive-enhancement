@@ -1,0 +1,247 @@
+$gris-foncé: #222;
+$fond-blanc: #fff;
+$gris-header: rgb(58, 54, 54);
+$gris-hover: rgb(46, 42, 42);
+$bleu-clair: rgb(30, 147, 204);
+$orange-hover: rgb(186, 114, 0);
+$orange: rgb(253, 173, 44);
+
+
+// ATTENTION TAILLE POLICE?
+/*Body - définition hauteur et largeur. */
+
+body {
+    width: 100%;
+    height: 100%;
+    font: {
+        family: 'Open Sans', sans-serif;
+        size: 15px;
+    }
+    margin: {
+        left: 0px;
+        top: 0px;
+    }
+    line-height: 1.4;
+  }
+  
+  /*Définition header et navigation*/
+
+  header {
+    background-color: $gris-header;
+    display: flex;
+    height: 45px;
+    width: 100%;
+
+    #logo {
+      width: auto;
+      height: 23px;
+      margin-left: 75px;
+      margin-top: 7px;
+    }
+    ul {
+      font: {
+         weight: 100;
+         size: 14px;
+     }
+          display: flex;
+          width: auto;
+          list-style-type: none; 
+    }
+    a {
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+      font: {
+        size: 14px;
+        weight: 300;
+      }
+      &:hover{
+        background-color: $gris-hover;
+      }
+    }
+    #login {
+      text-decoration: none;
+      color: white;
+      position: absolute;
+      right: 20px;
+      padding-top: 12px;
+    }
+    
+  }
+
+
+
+    
+  
+  #start {
+    margin-left: 0px;
+    margin-top: 0px;
+    height: 300px;
+    padding-top: 15px;
+    background-color: rgb(30, 147, 204);
+
+    .logo-get {
+      width: 270px;
+      height: auto;
+      float: left;
+      margin-top: 18px;
+      margin-left: 72px;
+    }
+    .titre-principal {
+      color: white;
+      margin-top: 20px;
+      width: 600px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      a:hover {
+        background-color: $orange-hover;
+      }
+      .logo-centre {
+        width: 300px;
+        height: auto;
+      }
+    
+      h2 {
+        color: white;
+        font-weight: 300;
+        font-size: 27px;
+        letter-spacing: 0px;
+        line-height: 29.7px;
+      }
+      
+    }
+      #bigbutton {
+        width: 250px;
+        height: 40px;
+        background-color: $orange;
+        text-decoration: none;
+        border: 2px white solid;
+        border-radius: 9px;
+        color: white;
+        font: {
+          size: 22.5px;
+        }
+        padding: {
+          bottom: 12px;
+          left: 15px;
+          right: 16px;
+          top: 12px;
+        }
+    }
+  }
+
+  #projects {
+    display: inline-block;
+    width: 100%;
+    height: 71px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  h3 {
+    display: inline-block;
+    margin: auto;
+    font-size: 26px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    padding-top: 20px;
+  }
+
+  
+  
+.grid-container {
+    color: white;  
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 50px;
+    background-color: rgb(30, 147, 204);
+    }   
+    .grid-item {
+      font-size: 15px;
+      font-weight: 400;
+      padding-left: 30px;
+      background-color: rgb(30, 147, 204);
+      h4 {
+        font-size: 26px;
+        font-weight: 300;
+      }
+    
+}
+
+  #innovative {
+    background-color: $fond-blanc;
+    height: 71px;
+    text-align: center;
+    vertical-align: middle;
+      font: {
+        size: 26px;
+      }
+    padding-top: 20px;
+  }
+  
+  #clients {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    background-color: rgb(134, 131, 131);
+    a{
+      padding: {
+        right: 30px;
+        left: 30px;
+      }    
+    }
+  }
+  
+  #container {
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    padding-top: 30px;
+  }
+    .element {
+      width: 200px;
+      height: 40px;
+      border-radius: 9px;
+      font-size: 26px;
+      padding: 20px;
+      margin: 10px;
+      text-align: center;
+      color: white;
+      background-color: rgb(30, 147, 204);
+    }
+    .element3 {
+      width: 250px;
+      height: 40px;
+      border-radius: 9px;
+      font-size: 26px;
+      padding: 20px;
+      margin: 10px;
+      text-align: center;
+      color: white;
+      background-color: rgb(186, 114, 0);
+    }
+  
+  footer {
+    width: 100%;
+    height: 60px;
+    background-color: $gris-header;
+  }
+  
+  footer {
+    ul {
+      display: flex;
+      list-style-type: none;
+      text-decoration: none;
+      margin: 10px;
+      width: auto;
+      color: white;
+    }
+    a:hover {
+      background-color: $gris-hover;
+    }
+  }
